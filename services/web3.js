@@ -109,8 +109,7 @@ const init = (evmRPC) => {
     return receipt;
   }
 
-  return { 
-    Web3,
+  return {
     web3,
     isConnect,
     contract,
@@ -119,4 +118,4 @@ const init = (evmRPC) => {
   }
 }
 
-module.exports = { init }
+module.exports = { init, Web3 }
