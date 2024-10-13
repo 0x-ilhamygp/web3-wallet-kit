@@ -110,6 +110,7 @@ const init = (evmRPC) => {
   }
 
   return { 
+    Web3,
     web3,
     isConnect,
     contract,
